@@ -60,6 +60,12 @@ void InitQueue(SqQueue &Q)
 	Q.front = Q.rear = 0;
 	int size = 0;
 }
+#define MaxSize 10
+{
+	ElemType data[MaxSize];
+	int front,rear;
+	int tag;//定义一个数据成员标记
+}SqQueue;
 //第三种方案
 #define MaxSize 10
 {
